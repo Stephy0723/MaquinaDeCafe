@@ -1,0 +1,24 @@
+{
+  "name": "tdd-cafetera",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephy0723/MaquinaDeCafe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Stephy0723/MaquinaDeCafe/issues"
+  },
+  "homepage": "https://github.com/Stephy0723/MaquinaDeCafe#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
