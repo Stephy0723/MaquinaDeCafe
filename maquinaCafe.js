@@ -1,9 +1,13 @@
 class MaquinaCafe {
-    seleccionarVaso(tamano) {
-        return `Vaso ${tamano} seleccionado`;
+    constructor() {
+        this.tamanosValidos = ["Pequeño", "Mediano", "Grande"];
     }
-    seleccionarAzucar(cucharadas) {
-        return `${cucharadas} cucharadas de azúcar añadidas`;
+
+    seleccionarVaso(tamano) {
+        if (!this.tamanosValidos.includes(tamano)) {
+            return "Error: Tamaño de vaso no válido. Usa 'Pequeño', 'Mediano' o 'Grande'.";
+        }
+        return `Vaso ${tamano} seleccionado`;
     }
 }
 
